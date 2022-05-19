@@ -4,16 +4,12 @@ This ARM template is dedicated to implementing An Azure Virtual Desktop infrastr
 
 # Template description
 
-This template is dedicated to implementing Azure Virtual desktop following the necessary best practices to insure  
-
+This template is dedicated to implementing Azure Virtual desktop following the necessary best practices to insure a proper implementationm of the solution, with the proper procedure to customize the code and fit it to a specific requirement.
 
 ## Target audience
 
-Example:
-- Infrastructure Architect
-- Application Developer
--       IT Professional
--       Cloud Solution Architect
+- Deployment Engineers
+- Solution Architects
 
 # Product/LZ architecture
 
