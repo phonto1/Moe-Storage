@@ -1,10 +1,10 @@
-# Topic of the Template
+# Azure Virtual Desktop Complete deployment template 
 
-Topic Brief Description
+This ARM template is dedicated to implementing An Azure Virtual Desktop infrastructure on Azure. All environnemental aspects are taken in consideration: Networking, User management, Application management and AVD Host pools management
 
-# Topic Landing Zone
+# Template description
 
-Description of the Landing zone
+This template is dedicated to implementing Azure Virtual desktop following the necessary best practices to insure  
 
 
 ## Target audience
