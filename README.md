@@ -20,7 +20,7 @@ example!!!
 - A Virutal Network Gateway and a Public IP address.
 - A Network Security Group with the necessary outbound rules for Azure Virtual Desktop Hostpools to properly activate and work.
 
-![alt image](https://github.com/git-pranayshah/template/blob/master/images/Landing_Zone_Template.png)
+![alt image](https://github.com/CharafMicrosoft/AVDCompletedeploymentTemplate/blob/master/AVD%20architecture.jpeg)
 
 [Template.json](https://github.com/git-pranayshah/template/blob/master/template.json) can be modified to match your current infrastructure needs.
 
