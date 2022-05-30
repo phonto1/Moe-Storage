@@ -1,0 +1,70 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "hostpoolId": {
+            "value": "/subscriptions/fcf274c4-a024-4e4f-af4b-aa5c27cc97d1/resourcegroups/arm-vscode/providers/Microsoft.DesktopVirtualization/hostpools/ARMPool"
+        },
+        "appGroupName": {
+            "value": "ARMAppGroupCustom"
+        },
+        "appGroupType": {
+            "value": "RemoteApp"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "selectedApps": {
+            "value": [
+                {
+                    "id": "/subscriptions/fcf274c4-a024-4e4f-af4b-aa5c27cc97d1/resourcegroups/arm-vscode/providers/Microsoft.DesktopVirtualization/applicationgroups/ARMPool-DAG/applications/Word",
+                    "name": "Word",
+                    "type": "Microsoft.WindowsVirualDesktop/applicationGroups/applications",
+                    "properties": {
+                        "applicationType": "Inbuilt",
+                        "friendlyName": "",
+                        "description": "",
+                        "filePath": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+                        "iconPath": "C:\\Program Files\\Microsoft Office\\Root\\VFS\\Windows\\Installer\\{90160000-000F-0000-1000-0000000FF1CE}\\wordicon.exe",
+                        "iconIndex": 0,
+                        "commandLineSetting": "DoNotAllow",
+                        "commandLineArguments": "",
+                        "showInPortal": true
+                    }
+                }
+            ]
+        },
+        "roleAssignments": {
+            "value": [
+                {
+                    "name": "5a180d23-32e6-438b-8052-696426cf612a",
+                    "id": "",
+                    "type": "Microsoft.Authorization/roleAssignments",
+                    "properties": {
+                        "principalId": "bff2771b-4f30-4547-a205-3f73a6010666",
+                        "roleDefinitionId": "1d18fff3-a72a-46b5-b4a9-0b38a3cd7e63",
+                        "scope": ""
+                    }
+                }
+            ]
+        },
+        "applicationGroupTags": {
+            "value": {}
+        },
+        "apiVersion": {
+            "value": "2021-09-03-preview"
+        },
+        "deploymentId": {
+            "value": "5a180d23-32e6-438b-8052-696426cf612b"
+        },
+        "workspaceName": {
+            "value": "ARMworkspace"
+        },
+        "workspaceResourceGroup": {
+            "value": "arm-vscode"
+        },
+        "allApplicationGroupReferences": {
+            "value": "/subscriptions/fcf274c4-a024-4e4f-af4b-aa5c27cc97d1/resourcegroups/arm-vscode/providers/Microsoft.DesktopVirtualization/applicationgroups/ARMPool-DAG"
+        }
+    }
+}
