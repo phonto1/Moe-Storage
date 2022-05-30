@@ -1,0 +1,186 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "artifactsLocation": {
+            "value": "https://wvdportalstorageblob.blob.core.windows.net/galleryartifacts/Configuration_01-20-2022.zip"
+        },
+        "nestedTemplatesLocation": {
+            "value": "https://wvdportalstorageblob.blob.core.windows.net/galleryartifacts/armtemplates/Hostpool_12-9-2021/nestedTemplates/"
+        },
+        "tokenExpirationTime": {
+            "value": "2022-02-22T10:10:48.976Z"
+        },
+        "vmTemplate": {
+            "value": "{\"domain\":\"\",\"galleryImageOffer\":\"office-365\",\"galleryImagePublisher\":\"MicrosoftWindowsDesktop\",\"galleryImageSKU\":\"20h1-evd-o365pp-g2\",\"imageType\":\"Gallery\",\"imageUri\":null,\"customImageId\":null,\"namePrefix\":\"VM1\",\"osDiskType\":\"StandardSSD_LRS\",\"vmSize\":{\"id\":\"Standard_D2s_v3\",\"cores\":2,\"ram\":8},\"galleryItemId\":\"microsoftwindowsdesktop.office-36520h1-evd-o365pp-g2\",\"hibernate\":false,\"diskSizeGB\":0}"
+        },
+        "intune": {
+            "value": false
+        },
+        "hostpoolName": {
+    
+            "value": "ARMPool"
+        },
+        "hostpoolDescription": {
+            "value": "Created through the Azure Virtual Desktop extension"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "validationEnvironment": {
+            "value": false
+        },
+        "hostpoolType": {
+            "value": "Pooled"
+        },
+        "loadBalancerType": {
+            "value": "BreadthFirst"
+        },
+        "vmResourceGroup": {
+            "value": "arm-vscode"
+        },
+        "vmNamePrefix": {
+            "value": "VM1"
+        },
+        "vmLocation": {
+            "value": "westeurope"
+        },
+        "availabilityOption": {
+            "value": "AvailabilityZone"
+        },
+        "availabilitySetName": {
+            "value": ""
+        },
+        "createAvailabilitySet": {
+            "value": false
+        },
+        "availabilitySetUpdateDomainCount": {
+            "value": 5
+        },
+        "availabilitySetFaultDomainCount": {
+            "value": 2
+        },
+        "availabilityZone": {
+            "value": 1
+        },
+        "vmImageType": {
+            "value": "Gallery"
+        },
+        "vmSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "vmNumberOfInstances": {
+            "value": 1
+        },
+        "vmDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "vmDiskSizeGB": {
+            "value": 0
+        },
+        "vmHibernate": {
+            "value": false
+        },
+        "bootDiagnostics": {
+            "value": {
+                "enabled": true
+            }
+        },
+        "securityType": {
+            "value": "Standard"
+        },
+        "secureBoot": {
+            "value": false
+        },
+        "vTPM": {
+            "value": false
+        },
+        "virtualNetworkResourceGroupName": {
+            "value": "arm-vscode"
+        },
+        "existingVnetName": {
+            "value": "ARMVirtualNetwork"
+        },
+        "existingSubnetName": {
+            "value": "Subnet1"
+        },
+        "createNetworkSecurityGroup": {
+            "value": false
+        },
+        "aadJoin": {
+            "value": true
+        },
+        "domain": {
+            "value": ""
+        },
+        "ouPath": {
+            "value": ""
+        },
+        "vmAdministratorAccountUsername": {
+            "value": "ARMuser"
+        },
+        "vmAdministratorAccountPassword": {
+            "value": "ARMTemplate123!"
+        },
+        "addToWorkspace": {
+            "value": true
+        },
+        "applicationGroupTags": {
+            "value": {}
+        },
+        "availabilitySetTags": {
+            "value": {}
+        },
+        "hostpoolTags": {
+            "value": {}
+        },
+        "imageTags": {
+            "value": {}
+        },
+        "networkInterfaceTags": {
+            "value": {}
+        },
+        "networkSecurityGroupTags": {
+            "value": {}
+        },
+        "virtualMachineTags": {
+            "value": {}
+        },
+        "apiVersion": {
+            "value": "2021-09-03-preview"
+        },
+        "deploymentId": {
+            "value": "5a180d23-32e6-438b-8052-696426cf6031"
+        },
+        "vmGalleryImageOffer": {
+            "value": "office-365"
+        },
+        "vmGalleryImagePublisher": {
+            "value": "MicrosoftWindowsDesktop"
+        },
+        "vmGalleryImageSKU": {
+            "value": "20h1-evd-o365pp-g2"
+        },
+        "vmGalleryImageHasPlan": {
+            "value": false
+        },
+        "maxSessionLimit": {
+            "value": 10
+        },
+        "workspaceResourceGroup": {
+            "value": "arm-vscode"
+        },
+        "workspaceName": {
+            "value": "ARMworkspace"
+        },
+        "workspaceLocation": {
+            "value": "westeurope"
+        },
+        "allApplicationGroupReferences": {
+            "value": ""
+        },
+        "isNewWorkspace": {
+            "value": true
+        }
+    }
+}
