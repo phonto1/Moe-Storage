@@ -1,0 +1,3 @@
+This folder contains Json deployment scripts by feature
+These scripts can be ran through any code execution tool (Visual Studio code for example)
+The scripts would need to be tailored to the specific infrastructure requirement (Subscription ID, Network IP range etc..)
