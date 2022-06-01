@@ -1,10 +1,10 @@
-# Azure Virtual Desktop Complete deployment template 
+# Azure Storage Account SMB File Share template 
 
-This ARM template is dedicated to implementing An Azure Virtual Desktop infrastructure on Azure. All environnemental aspects are taken in consideration: Networking, User management, Application management and AVD Host pools management
+This ARM template is dedicated to implementing An Azure Storage Account with 500 SMB fileshare to be used for Azure. Including a Powershell Script Join the Storage Account to the onpremises Active Directory Domain Services
 
 # Template description
 
-This template is dedicated to implementing Azure Virtual desktop following the necessary best practices to insure a proper implementationm of the solution, with the proper procedure to customize the code and fit it to a specific requirement.
+This template is dedicated to implementing Azure Storage Account following the necessary best practices to insure a proper implementationm of the solution, with the proper procedure to customize the code and fit it to a specific requirement.
 
 ## Target audience
 
