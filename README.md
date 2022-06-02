@@ -50,7 +50,7 @@ Using the search bar on top type Templates
 
 - Add for modified [Template.json](https://github.com/phonto1/Moe-Storage/blob/master/Deployment%20Scripts/Azure%20Storage/AzureStorageDeploy.json) and save it
 
-![alt image](https://github.com/git-pranayshah/template/blob/master/images/add%20code.png)
+![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/ARM%20code.png)
 
 - Select the newly added template and click deploy
 
