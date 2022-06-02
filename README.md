@@ -64,9 +64,9 @@ Using the search bar on top type Templates
 
 ## Azure services and related products
 
-example!!
-- Azure Networking
-- Security
+
+- Azure Storage
+- Azure Virtual Desktop
 
 ## Related references
 example!!
