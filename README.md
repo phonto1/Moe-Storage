@@ -1,6 +1,6 @@
 # Azure Storage Account SMB File Share template 
 
-This ARM template is dedicated to implementing An Azure Storage Account with 500 SMB fileshare to be used for Azure. Including a Powershell Script Join the Storage Account to the onpremises Active Directory Domain Services
+This ARM template is dedicated to implementing An Azure Storage Account with 500 GB SMB fileshare to be used as a storage for Azure Virtual Desktop users profiles. 
 
 # Template description
 
@@ -13,7 +13,7 @@ This template is dedicated to implementing Azure Storage Account following the n
 
 # Product/LZ architecture
 
-The [Template.json](https://github.com/git-pranayshah/template/blob/master/template.json) Azure Resource Manager template will help you automatically deploy the diagram below, which includes:
+The [Template.json](https://github.com/phonto1/Moe-Storage/blob/master/Deployment%20Scripts/Azure%20Storage/AzureStorageDeploy.json) Azure Resource Manager template will help you automatically deploy the diagram below, which includes:
 
 example!!!
 
