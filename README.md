@@ -42,7 +42,7 @@ Using the search bar on top type Templates
 
 - Create a new template
 
-![alt image](https://github.com/git-pranayshah/template/blob/master/images/create.png)
+![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/ARM%20code.png)
 
 - Give a name and a description to the template
 
