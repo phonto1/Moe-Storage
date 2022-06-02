@@ -60,8 +60,7 @@ Using the search bar on top type Templates
 
 ![alt image](https://github.com/git-pranayshah/template/blob/master/images/Fill%20out%20the%20details%20and%20purchase.png)
 
-- Allow 30 minutes for the deployment to complete
-- Peer your Hub and Spoke Virtual Networks as needed
+- Allow 2-5 minutes for the deployment to complete
 
 ## Azure services and related products
 
