@@ -15,10 +15,6 @@ This template is dedicated to implementing Azure Storage Account following the n
 
 The [Template.json](https://github.com/phonto1/Moe-Storage/blob/master/Deployment%20Scripts/Azure%20Storage/AzureStorageDeploy.json) Azure Resource Manager template will help you automatically deploy the diagram below, which includes:
 
-example!!!
-
-- A Virutal Network Gateway and a Public IP address.
-- A Network Security Group with the necessary outbound rules for Azure Virtual Desktop Hostpools to properly activate and work.
 
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/azure-file-share.png)
 
