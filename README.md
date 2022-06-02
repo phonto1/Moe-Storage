@@ -71,9 +71,9 @@ Using the search bar on top type Templates
 ## Related references
 example!!
 - https://docs.microsoft.com/en-us/azure/virtual-desktop/overview
-- https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/
-- https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-connect-virtual-networks-portal#peer-virtual-networks
-- https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list#virtual-machines
+- https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal
+
+
 
 ## License & Contribute
 
