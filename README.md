@@ -58,7 +58,7 @@ Using the search bar on top type Templates
 
 - Fill out the blanks with your details and click purchase
 
-![alt image](https://github.com/git-pranayshah/template/blob/master/images/Fill%20out%20the%20details%20and%20purchase.png)
+![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/StorageAccountCreation.png)
 
 - Allow 2-5 minutes for the deployment to complete
 
