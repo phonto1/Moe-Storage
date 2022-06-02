@@ -18,7 +18,7 @@ The [Template.json](https://github.com/phonto1/Moe-Storage/blob/master/Deploymen
 
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/azure-file-share.png)
 
-[Template.json](https://github.com/git-pranayshah/template/blob/master/template.json) can be modified to match your current infrastructure needs.
+[Template.json](https://github.com/phonto1/Moe-Storage/blob/master/Deployment%20Scripts/Azure%20Storage/AzureStorageDeploy.json) can be modified to match your current infrastructure needs.
 
 ## One Click Deploying Teamplate
 <!-- Powershell command for Translating Git URL for template.json
