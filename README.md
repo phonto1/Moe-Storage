@@ -48,7 +48,7 @@ Using the search bar on top type Templates
 
 ![alt image](https://github.com/git-pranayshah/template/blob/master/images/Name%20and%20Description.png)
 
-- Add for modified [Template.json](https://github.com/git-pranayshah/template/blob/master/template.json) and save it
+- Add for modified [Template.json](https://github.com/phonto1/Moe-Storage/blob/master/Deployment%20Scripts/Azure%20Storage/AzureStorageDeploy.json) and save it
 
 ![alt image](https://github.com/git-pranayshah/template/blob/master/images/add%20code.png)
 
