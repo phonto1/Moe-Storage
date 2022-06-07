@@ -21,19 +21,13 @@ The [JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob
 
 [JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/JoinStorage%20to%20onprem%20ADDS.ps1) can be modified to match your current infrastructure needs.
 
-## One Click Deploying Teamplate
-<!-- Powershell command for Translating Git URL for template.json
-    $url = "https://raw.githubusercontent.com/git-pranayshah/template/master/template.json"
-    [uri]::EscapeDataString($url)
-    >> uri = https%3A%2F%2Fraw.githubusercontent.com%2Fgit-pranayshah%2Ftemplate%2Fmaster%2Ftemplate.json
+## Pre-requistes ?
 
-Base URL: https://portal.azure.com/#create/Microsoft.Template/uri
-Final URL: <Base URL>/<uri>
--->
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fgit-pranayshah%2Ftemplate%2Fmaster%2Ftemplate.json)
+Before you get started, make sure your domain controller is synchronized to Azure and resolvable from the Azure virtual network (VNET) your session hosts are connected to.
 
-
-## Deploying an ARM Template using the Azure portal
+- Setup a storage account from this github template: (https://github.com/phonto1/Moe-Storage)
+- Make Sure you have an onprem admin account syncronized to Azure AD with Domain Join privledge, for example "Adadmin@contoso.com".
+-
 
 - Visit https://portal.azure.com
 
