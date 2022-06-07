@@ -19,7 +19,7 @@ The [JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob
 
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/azure-file-share.png)
 
-[Template.json](https://github.com/phonto1/Moe-Storage/blob/master/Deployment%20Scripts/Azure%20Storage/AzureStorageDeploy.json) can be modified to match your current infrastructure needs.
+[JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/JoinStorage%20to%20onprem%20ADDS.ps1) can be modified to match your current infrastructure needs.
 
 ## One Click Deploying Teamplate
 <!-- Powershell command for Translating Git URL for template.json
