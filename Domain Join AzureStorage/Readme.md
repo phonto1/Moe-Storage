@@ -12,15 +12,6 @@ This PS Script is dedicated to Domain Join an Azure Storage Account to the on-pr
 - Deployment Engineers
 - Solution Architects
 
-# Product/LZ architecture
-
-The [JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/JoinStorage%20to%20onprem%20ADDS.ps1) PowerShell Script will help you Domain Join the Azure Storage Account to the on-prem ADDS, which includes:
-
-
-![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/azure-file-share.png)
-
-[JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/JoinStorage%20to%20onprem%20ADDS.ps1) can be modified to match your current infrastructure needs.
-
 ## Prepare your enviroment:
 
 ## 1.On-prem AD pre-requistes
@@ -29,6 +20,7 @@ Before you get started, make sure your domain controller is synchronized to Azur
 
 - Make Sure you have an onprem admin account syncronized to Azure AD with Domain Join privledge, for example "Adadmin@contoso.com".
 - From the Azure Portal > Navigate to Subscriptions > Select your testing Subscription > Under the testing Subscription > From the Left Pane > Click on access control (IAM) > add role assignments > in the top middle click on add> add role assignments >  Add owner permissions to your user account "adadmin@contoso.com".
+- Make Sure that the "adadmin" user account is a Global administrator in Azure AD.
 
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/Subscription%20permssions.png)
 
