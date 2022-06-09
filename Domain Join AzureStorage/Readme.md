@@ -46,11 +46,17 @@ Before you get started, make sure your domain controller is synchronized to Azur
 
 - Login to the domain Joined VM.
 - If you don't have .netframwork 4.7.2, download it from (https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472). 
-- Download the latest AzHybridModule from (https://github.com/phonto1/Moe-Storage) 
+- Download the latest AzFilesHybridModule from (https://github.com/phonto1/Moe-Storage) 
 - Extract the ZIP "AZHybridModule".
 - Download the DomainJoinScript from here (https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/JoinStorage%20to%20onprem%20ADDS.ps1)
-- From the Start Menu > Open PowerShell as an administrator > Navigate to the script location "JoinStorageAccounttoonpremADDS.ps1
+- Connect to the domain Joined VM machine > From the Start Menu > Open PowerShell as an administrator > Navigate to the script location "JoinStorageAccounttoonpremADDS.ps1 then Run the Script
+- Please Note: it will begin Installing the AzHybrid Module, it will take time and will ask to restart the PowerShell Session (Close the session and repeat the same steps again).
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/PowershellScriptNavigation.PNG)
+
+- It will show up a yellow message verifying if you already downloaded the AzFilesHybrid Module > If you downloaded the module confirm and type the script location
+- Another message will show up and will ask you to install the azfilesHybrid module.
+- Please Note: it will begin Installing the AzHybrid Module, it will take time and will ask to restart the PowerShell Session (Close the session and repeat the same steps again).
+![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/ScriptNavigation%202.PNG)
 
 - Sign in to the Azure Portal > Search to the Storage account > click on the newly created Storage.
 
