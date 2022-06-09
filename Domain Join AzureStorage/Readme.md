@@ -66,46 +66,18 @@ Before you get started, make sure your domain controller is synchronized to Azur
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/AzureLogin.PNG)
 
 
-- Sign in to the Azure Portal > Search to the Storage account > click on the newly created Storage.
-
-- Visit https://portal.azure.com
-
-Using the search bar on top type Templates
-
-![alt image](https://github.com/git-pranayshah/template/blob/master/images/Search.png)
-
-- Create a new template
-
-![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/CreateTemplate.png)
-
-- Give a name and a description to the template
-
-![alt image](https://github.com/git-pranayshah/template/blob/master/images/Name%20and%20Description.png)
-
-- Add for modified [Template.json](https://github.com/phonto1/Moe-Storage/blob/master/Deployment%20Scripts/Azure%20Storage/AzureStorageDeploy.json) and save it
-
-![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/ARM%20code.png)
-
-- Select the newly added template and click deploy
-
-![alt image](https://github.com/git-pranayshah/template/blob/master/images/Select%20and%20deploy%20template.png)
-
-- Fill out the blanks with your details and click purchase
-
-![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/StorageAccountCreation.png)
-
-- Allow 2-5 minutes for the deployment to complete
-
 ## Azure services and related products
 
 
 - Azure Storage
 - Azure Virtual Desktop
+- Azure Storage Account SMB FileShare
+- FSLogix Profiles
 
 ## Related references
 example!!
-- https://docs.microsoft.com/en-us/azure/virtual-desktop/overview
-- https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal
+- https://docs.microsoft.com/en-us/azure/virtual-desktop/create-file-share
+- https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable
 
 
 
