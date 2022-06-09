@@ -1,6 +1,7 @@
 # Azure Storage Account SMB File Share template 
 
 This ARM template is dedicated to implementing An Azure Storage Account with 500 GB SMB fileshare to be used as a storage for Azure Virtual Desktop users profiles. 
+Please note: After the storage account creation is complete, if you are interested to Join it to the on-primeses Microsoft Active Directory domain, please follow the steps from here: (https://github.com/phonto1/Moe-Storage/tree/master/Domain%20Join%20AzureStorage)
 
 # Template description
 
@@ -61,17 +62,20 @@ Using the search bar on top type Templates
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/StorageAccountCreation.png)
 
 - Allow 2-5 minutes for the deployment to complete
+- Please note: After the storage account creation is complete, if you are interested to Join it to the on-primeses Microsoft Active directory domain, please follow the steps from here: (https://github.com/phonto1/Moe-Storage/tree/master/Domain%20Join%
 
 ## Azure services and related products
 
-
 - Azure Storage
 - Azure Virtual Desktop
+- FSLogix Profiles
 
 ## Related references
 example!!
 - https://docs.microsoft.com/en-us/azure/virtual-desktop/overview
 - https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal
+- https://docs.microsoft.com/en-us/azure/virtual-desktop/create-file-share
+- https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable
 
 
 
