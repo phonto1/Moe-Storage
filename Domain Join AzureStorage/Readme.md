@@ -23,7 +23,7 @@ The [JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob
 
 ## Prepare your enviroment:
 
-## On-prem AD pre-requistes
+## 1.On-prem AD pre-requistes
 
 Before you get started, make sure your domain controller is synchronized to Azure and resolvable from the Azure virtual network (VNET) your session hosts are connected to.
 
@@ -33,7 +33,7 @@ Before you get started, make sure your domain controller is synchronized to Azur
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/Subscription%20permssions.png)
 
 
-## Storage Account pre-requistes:
+## 2. Storage Account pre-requistes:
 
 
 - Setup a storage account from this github template: (https://github.com/phonto1/Moe-Storage)
@@ -42,7 +42,15 @@ Before you get started, make sure your domain controller is synchronized to Azur
 
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/StoragePermmissions.png)
 
+## Run the JoinStorage to onprem ADDS.ps1:
 
+- Login to the domain Joined VM.
+- If you don't have .netframwork 4.7.2, download it from (https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472). 
+- Download the latest AzHybridModule from (https://github.com/phonto1/Moe-Storage) 
+- Extract the ZIP "AZHybridModule".
+- Download the DomainJoinScript from here (https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/JoinStorage%20to%20onprem%20ADDS.ps1)
+- From the Start Menu > Open PowerShell as an administrator > Navigate to the script location "JoinStorageAccounttoonpremADDS.ps1
+![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/PowershellScriptNavigation.PNG)
 
 - Sign in to the Azure Portal > Search to the Storage account > click on the newly created Storage.
 
