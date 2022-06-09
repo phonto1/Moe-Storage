@@ -53,10 +53,14 @@ Before you get started, make sure your domain controller is synchronized to Azur
 - Please Note: it will begin Installing the AzHybrid Module, it will take time and will ask to restart the PowerShell Session (Close the session and repeat the same steps again).
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/PowershellScriptNavigation.PNG)
 
-- It will show up a yellow message verifying if you already downloaded the AzFilesHybrid Module > If you downloaded the module confirm and type the script location
-- Another message will show up and will ask you to install the azfilesHybrid module.
-- Please Note: it will begin Installing the AzHybrid Module, it will take time and will ask to restart the PowerShell Session (Close the session and repeat the same steps again).
+- PowerShell will display a yellow warning message verifying if you already downloaded the AzFilesHybrid Module > confirm and Enter the script location
+- Another message will show up asking to install the azfilesHybrid module. Please Note: it will begin Installing the AzHybrid Module, it will take time and will ask to restart the PowerShell Session (Close the session and repeat the same steps again).
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/ScriptNavigation%202.PNG)
+
+- After installing the AzFilesHybridModule > Enter the storage account information like "Subscription id, Resource Group Name, Storage Account Name ..etc)
+![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/ScriptParam.PNG)
+
+
 
 - Sign in to the Azure Portal > Search to the Storage account > click on the newly created Storage.
 
