@@ -21,13 +21,27 @@ The [JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob
 
 [JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/JoinStorage%20to%20onprem%20ADDS.ps1) can be modified to match your current infrastructure needs.
 
-## Pre-requistes ?
+## Prepare your enviroment:
+
+## On-prem AD pre-requistes
 
 Before you get started, make sure your domain controller is synchronized to Azure and resolvable from the Azure virtual network (VNET) your session hosts are connected to.
 
-- Setup a storage account from this github template: (https://github.com/phonto1/Moe-Storage)
 - Make Sure you have an onprem admin account syncronized to Azure AD with Domain Join privledge, for example "Adadmin@contoso.com".
--
+- From the Azure Portal > Navigate to Subscriptions > Select your testing Subscription > Under the testing Subscription > From the Left Pange > Click on access control (IAM) > add role assignments > in the top middle click on add> add role assignments >  Add owner permissions to your user account "adadmin@contoso.com".
+
+![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/Subscription%20permssions.png)
+
+
+## Storage Account pre-requistes:
+
+
+- Setup a storage account from this github template: (https://github.com/phonto1/Moe-Storage)
+
+
+
+
+- Sign in to the Azure Portal > Search to the Storage account > click on the newly created Storage.
 
 - Visit https://portal.azure.com
 
