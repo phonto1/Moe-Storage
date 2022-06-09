@@ -28,7 +28,7 @@ The [JoinStorage to onprem ADDS.ps1](https://github.com/phonto1/Moe-Storage/blob
 Before you get started, make sure your domain controller is synchronized to Azure and resolvable from the Azure virtual network (VNET) your session hosts are connected to.
 
 - Make Sure you have an onprem admin account syncronized to Azure AD with Domain Join privledge, for example "Adadmin@contoso.com".
-- From the Azure Portal > Navigate to Subscriptions > Select your testing Subscription > Under the testing Subscription > From the Left Pange > Click on access control (IAM) > add role assignments > in the top middle click on add> add role assignments >  Add owner permissions to your user account "adadmin@contoso.com".
+- From the Azure Portal > Navigate to Subscriptions > Select your testing Subscription > Under the testing Subscription > From the Left Pane > Click on access control (IAM) > add role assignments > in the top middle click on add> add role assignments >  Add owner permissions to your user account "adadmin@contoso.com".
 
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/Subscription%20permssions.png)
 
@@ -37,7 +37,10 @@ Before you get started, make sure your domain controller is synchronized to Azur
 
 
 - Setup a storage account from this github template: (https://github.com/phonto1/Moe-Storage)
+- From the Azure Portal > Open the newly created storage > From the left pane > click on access control(IAM) > add > role assignment > then add SMB Storage File Data SMB Share Elevated Contributor to "adadmin@contoso.com" user account.
+- Repeat the same steps > to assign endusers permissions for their FSLogix profiles > select the "Storage File Data SMB Share Contributor" role instead.
 
+![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/StoragePermmissions.png)
 
 
 
