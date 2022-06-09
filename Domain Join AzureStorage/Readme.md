@@ -1,11 +1,10 @@
-# Azure Storage Account Domain Join to onprem Active Directory Domain Service
+# Join an Azure Storage Account to The On-prem Microsoft Active Directory Domain Services.
 
-This PowerShell is designed to Simplify Joinging the Azure storage account to on-prem ADDS.
+This PowerShell is designed to Simplify Joinging the Azure storage account to your on-prem Microsoft ADDS.
  
+# PowerShell Script description
 
-# Template description
-
-This PS Script is dedicated to Domain Join an Azure Storage Account to the on-prem domin following the necessary best practices to insure a proper implementationm of the solution, with the proper procedure to customize the code and fit it to a specific requirement.
+This PS Script is used to for Joining an Azure Storage Account to the on-prem Microsoft AD Domin following the necessary best practices to insure a proper implementationm of the solution, with the proper procedure to customize the code and fit it to a specific requirement.
 
 ## Target audience
 
