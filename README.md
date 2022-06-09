@@ -62,7 +62,7 @@ Using the search bar on top type Templates
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Images/StorageAccountCreation.png)
 
 - Allow 2-5 minutes for the deployment to complete
-- Please note: After the storage account creation is complete, if you are interested to Join it to the on-primeses Microsoft Active directory domain, please follow the steps from here: (https://github.com/phonto1/Moe-Storage/tree/master/Domain%20Join%)
+- Please note: After the storage account creation is complete, if you are interested to Join it to the on-primeses Microsoft Active directory domain, please follow the steps from here: (https://github.com/phonto1/Moe-Storage/tree/master/Domain%20Join%20AzureStorage)
 
 ## Azure services and related products
 
