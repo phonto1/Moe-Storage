@@ -58,8 +58,12 @@ Before you get started, make sure your domain controller is synchronized to Azur
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/ScriptNavigation%202.PNG)
 
 - After installing the AzFilesHybridModule > Enter the storage account information like "Subscription id, Resource Group Name, Storage Account Name ..etc)
+- Please Note under the Encryption type the recommended is AES256, and the default is RC4.
 ![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/ScriptParam.PNG)
 
+- After supplying all the nessary storage account information > it will ask you to sign in with your "Adadmin@contoso.com" > Type the user name and password and click Sign in.
+- Wait a few moments and the storage account should be sucessfully joined to the on-premises domain.
+![alt image](https://github.com/phonto1/Moe-Storage/blob/master/Domain%20Join%20AzureStorage/Images/AzureLogin.PNG)
 
 
 - Sign in to the Azure Portal > Search to the Storage account > click on the newly created Storage.
