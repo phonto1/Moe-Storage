@@ -4,7 +4,7 @@ This PowerShell is designed to Simplify Joinging the Azure storage account to yo
  
 # PowerShell Script description
 
-This PS Script is used to for Joining an Azure Storage Account to the on-prem Microsoft AD Domin following the necessary best practices to insure a proper implementationm of the solution, with the proper procedure to customize the code and fit it to a specific requirement.
+This PS Script is used for Joining an Azure Storage Account to the on-prem Microsoft AD Domin following the necessary best practices to insure a proper implementationm of the solution, with the proper procedure to customize the code and fit it to a specific requirement.
 
 ## Target audience
 
